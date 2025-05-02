@@ -81,7 +81,7 @@
    ```bash
    mkdir -p ~/robot_ws/src
    cd ~/robot_ws/src
-````
+   ```
 
 2. 패키지 복사 또는 클론
 
