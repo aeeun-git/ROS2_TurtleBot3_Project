@@ -159,6 +159,6 @@ ros2 run Cgps gps_listener_node
 
 ## 🏷️ 라이선스
 
-MIT © \[aeeun-git]
+MIT © [aeeun](https://github.com/aeeun-git)
 
 ---
