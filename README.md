@@ -1,4 +1,3 @@
-```markdown
 # ROS2 TurtleBot3 Project
 
 <img src="https://img.shields.io/badge/ROS–2-22314E?style=for-the-badge&logo=ros&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
