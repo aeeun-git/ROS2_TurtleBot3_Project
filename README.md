@@ -52,3 +52,5 @@ ros2 launch turtlebot3_bringup robot.launch.py
 7.  ### test_pkg
 -  패키지를 만들기 전, 테스트 용으로 만드는 패키지
   
+## 학술대회 논문
+https://www.manuscriptlink.com/society/kips/conference/ack2024/file/downloadSoConfManuscript/abs/KIPS_C2024B0256
