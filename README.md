@@ -40,14 +40,14 @@
 
 2. **robot_cleaner_pkg**  
    - 앞쪽 장애물 감지 시 후진·회전  
-   - `sensor_msgs/LaserScan` 구독
+   - 'sensor_msgs/LaserScan' 구독
 
 3. **action_test**  
    - ROS 2 Action 서버·클라이언트 기본 구조 실습  
    - 간단한 피드백·결과 메시지 교환
 
 4. **robot_action**  
-   - 커스텀 Action 메시지(`.action` 파일) 정의  
+   - 커스텀 Action 메시지('.action' 파일) 정의  
    - 목표 위치·속도 등을 파라미터로 전달
 
 5. **robot_go_pkg**  
@@ -73,7 +73,7 @@
 
 - Ubuntu 20.04 / ROS 2 Foxy 또는 Humble  
 - TurtleBot3 (Burger)  
-- C++ 컴파일러, Python3, `colcon` 빌드툴  
+- C++ 컴파일러, Python3, 'colcon' 빌드툴  
 
 ### 빌드 및 실행
 
@@ -144,9 +144,9 @@ ros2 run Cgps gps_listener_node
 
 ## 🔧 커스터마이징
 
-* `robot_action/action/*.action` 파일을 편집해 새로운 Action 메시지 정의
-* `robot_grid_pkg` 내 그리드 맵 파라미터 조정 가능
-* GPS 센서 드라이버(`Cgps`)를 다른 센서로 교체하려면 노드 코드 수정
+* 'robot_action/action/*.action' 파일을 편집해 새로운 Action 메시지 정의
+* 'robot_grid_pkg' 내 그리드 맵 파라미터 조정 가능
+* GPS 센서 드라이버('Cgps')를 다른 센서로 교체하려면 노드 코드 수정
 
 ---
 
@@ -154,6 +154,13 @@ ros2 run Cgps gps_listener_node
 
 * TurtleBot3 공식 튜토리얼: [http://emanual.robotis.com/docs/en/platform/turtlebot3/](http://emanual.robotis.com/docs/en/platform/turtlebot3/)
 * ROS 2 튜토리얼: [https://docs.ros.org/en/foxy/Tutorials.html](https://docs.ros.org/en/foxy/Tutorials.html)
+
+---
+
+## 📄 학술대회 논문
+
+* "ROS2 기반 TurtleBot3 로봇 제어 및 실습 프레임워크 설계"
+  [https://www.manuscriptlink.com/society/kips/conference/ack2024/file/downloadSoConfManuscript/abs/KIPS\_C2024B0256]
 
 ---
 
